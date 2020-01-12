@@ -11,3 +11,5 @@ C:\react\mern_shopping_list>npm i express body-parser mongoose concurrently
 body-parser:    Read the body that comes back from backend response.
 mongoose:       Interact with our library
 concurrently:   Run more than one npm script. Run server and client script at the same time.
+
+C:\react\mern_shopping_list>npm i -D nodemon
