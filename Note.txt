@@ -4,6 +4,7 @@ https://github.com/Annie-Huang/mern_shopping_list
 
 https://mlab.com/
 
+Up to Learn the MERN Stack [2] - Express API & MongoDB
 ============================================================
 
 C:\react\mern_shopping_list>npm init
