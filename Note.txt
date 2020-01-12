@@ -13,3 +13,5 @@ mongoose:       Interact with our library
 concurrently:   Run more than one npm script. Run server and client script at the same time.
 
 C:\react\mern_shopping_list>npm i -D nodemon
+
+nodemon:        Can continues looking at server.js (check the script in npm) rather than we need to restart node everytime we change server.js
