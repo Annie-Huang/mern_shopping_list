@@ -4,16 +4,31 @@ https://github.com/Annie-Huang/mern_shopping_list
 
 https://mlab.com/
 
-Up to Learn the MERN Stack [2] - Express API & MongoDB
+Up to:
+Learn the MERN Stack [2] - Express API & MongoDB
 ============================================================
 
 C:\react\mern_shopping_list>npm init
 C:\react\mern_shopping_list>npm i express body-parser mongoose concurrently
 
-body-parser:    Read the body that comes back from backend response.
-mongoose:       Interact with our library
-concurrently:   Run more than one npm script. Run server and client script at the same time.
+    body-parser:    Read the body that comes back from backend response.
+    mongoose:       Interact with our library
+    concurrently:   Run more than one npm script. Run server and client script at the same time.
 
 C:\react\mern_shopping_list>npm i -D nodemon
 
-nodemon:        Can continues looking at server.js (check the script in npm) rather than we need to restart node everytime we change server.js
+    nodemon:        Can continues looking at server.js (check the script in npm) rather than we need to restart node everytime we change server.js
+
+
+C:\react\mern_shopping_list>npm run server
+It got error of...
+....
+[nodemon] starting `node server.js`
+(node:42328) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to M
+ongoClient.connect.
+Server started on port 5000
+(node:42328) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitorin
+g engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+MongoDB Connected
+...
+Need to update connection according to instruction.
